@@ -736,13 +736,14 @@ p {
 .email-submit {
   display: flex;
   align-items: center;
+  justify-content: center;
 
   padding: 10px 28px;
   min-width: 200px;
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88em;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--btn-text-alternative-color);
 
@@ -844,7 +845,7 @@ p {
 
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15em;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -1001,9 +1002,11 @@ p {
 
 .btn-submit {
   display: block;
+  padding: 10px;
   margin: 0 auto;
   min-width: 200px;
   height: 50px;
+
 
   font-weight: 700;
   font-size: 16px;
