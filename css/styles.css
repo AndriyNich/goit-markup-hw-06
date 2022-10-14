@@ -1007,7 +1007,8 @@ p {
 }
 
 .modal-checkbox:checked + .checkbox-icon {
-  border: 2px solid var(--logo-first-color);
+  border: none;
+  /* border: 2px solid var(--logo-first-color); */
   background-color: var(--logo-first-color);
 }
 
